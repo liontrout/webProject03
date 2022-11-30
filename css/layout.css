@@ -1,0 +1,272 @@
+@media screen and (max-width: 1023px) {
+  /* layout */
+  #header{
+    z-index: 250;
+    position: fixed; top: 0; left: 0;
+    width: 100%; height: 61px;
+    background: #fff;
+  }
+  #header::after{
+    content: "";
+    position: fixed; top: 60px; left: 0; right: 0;
+    height: 1px;
+    background: #e4e4e4;
+  }
+    .header_wrap{
+      width: 100%; height: inherit;
+    }
+      .header_inner{
+        position: relative;
+        display: flex; flex-direction: row; justify-content: space-between;
+        width: 100%; max-width: 1440px;
+        margin: 0 auto;
+        padding: 18px 20px 0 20px;
+      }
+  .banner{
+    z-index: 30;
+    position: relative; left: 0; right: 0; top: 61px;
+    width: 100%; height: 500px;
+    overflow: hidden;
+  }
+    div.banner_frame{
+      position: relative; left: 0;
+      display: flex; flex-direction: row; justify-content: flex-start; align-items: center;
+      width: 500%; height: inherit;
+      transition: left 1.5s ease 0s;
+    }
+  #container{
+    width: 100%;
+    position: relative; left: 0; right: 0; top: 61px;
+    text-align: center;
+    padding-bottom: 100px;
+  }
+    .content1{
+      display: none;
+      width: 100%;
+      background: #fff;
+    }
+      .content1_inner{
+        width: 920px; max-width: 1440px;
+        margin: 0 auto;
+        padding: 0 24px 80px;
+      }
+    .content2{
+      width: 100%;
+      background: #f7f7f7;
+    }
+      .content2_inner{
+        width: 100%; max-width: 1440px;
+        margin: 0 auto;
+        padding: 0 24px;
+        box-sizing: border-box;
+      }
+    .content3{
+      width: 100%;
+      background: #fff;
+    }
+      .content3_inner1{
+        width: 97%;
+        margin: 0 auto 130px;
+      }
+      .content3_inner2{
+        width: 97%;
+        margin: 0 auto;
+      }
+    .content4{
+      width: 100%;
+      color: #fff;
+      background: #000;
+    }
+      .content4_inner{
+        width: 100%; max-width: 1440px;
+        padding-bottom: 50px;
+        margin: 0 auto;
+        overflow-x: hidden;
+      }
+        .content4_frame{
+          position: relative;
+          display: flex; flex-direction: row; justify-content: flex-start; align-items: center;
+          width: 300%; height: 100%;
+          margin-top: 40px;
+          transition: left 1.5s ease 0s;
+        }
+    .content5{
+      width: 100%;
+      background: #fff;
+    }
+      .content5_inner1{
+        width: 100%;
+        margin: 0 auto;
+      }
+      .content5_inner2{
+        width: 100%;
+        margin: 0 auto 50px;
+      }
+  #footer{
+    position: relative;
+    width: 100%;
+    padding-bottom: 40px;
+    border-top: 1px solid #ddd;
+    background: #fff;
+    overflow: hidden;
+  }
+    .foot_inner{
+      width: 100%;
+      margin: 0 auto;
+    }
+      .foot_inner_1{
+        width: 100%;
+        border-bottom: 1px solid #ddd;
+      }
+      .foot_inner_2{
+        margin: 20px auto 0;
+        padding: 0 24px;
+      }
+      .foot_inner_3{
+        width: 100%;
+        margin-top: 22px;
+        padding: 0 24px;
+      }
+      .foot_inner_4{
+        clear: both;
+        width: 100%; max-width: 1440px;
+        margin: 0 auto;
+        padding: 26px 0 0 24px;
+      }
+}
+
+@media screen and (min-width: 1024px) {
+  /* layout */
+  #header{
+    z-index: 250;
+    position: fixed; top: 0; left: 0;
+    width: 100%; height: 81px;
+    background: #fff;
+  }
+  #header::after{
+    content: "";
+    position: fixed; top: 80px; left: 0; right: 0;
+    height: 1px;
+    background: #e4e4e4;
+  }
+    .header_wrap{
+      width: 100%; height: inherit;
+    }
+      .header_inner{
+        position: relative;
+        display: flex; flex-direction: row; justify-content: space-between;
+        width: 100%;
+        padding: 28px 24px 0 24px;
+      }
+  .banner{
+    z-index: 30;
+    position: relative; left: 0; right: 0; top: 81px;
+    width: 100%; min-width: 1024px; height: 500px;
+    overflow: hidden;
+  }
+    div.banner_frame{
+      position: relative; left: 0;
+      display: flex; flex-direction: row; justify-content: flex-start; align-items: center;
+      width: 500%; height: inherit;
+      transition: left 1.5s ease 0s;
+    }
+  #container{
+    width: 100%;
+    position: relative; left: 0; right: 0; top: 81px;
+    text-align: center;
+    padding-bottom: 100px;
+  }
+    .content1{
+      width: 100%;
+      background: #fff;
+    }
+      .content1_inner{
+        width: 920px; max-width: 1440px;
+        margin: 0 auto;
+        padding: 0 24px 80px;
+      }
+    .content2{
+      width: 100%;
+      background: #f7f7f7;
+    }
+      .content2_inner{
+        width: 100%; max-width: 1440px;
+        margin: 0 auto;
+        padding: 0 24px;
+        box-sizing: border-box;
+      }
+    .content3{
+      width: 100%;
+      background: #fff;
+    }
+      .content3_inner1{
+        width: 97%;
+        margin: 0 auto 50px;
+      }
+      .content3_inner2{
+        width: 97%;
+        margin: 0 auto;
+      }
+    .content4{
+      width: 100%;
+      color: #fff;
+      background: #000;
+    }
+      .content4_inner{
+        width: 100%; max-width: 1440px;
+        padding-bottom: 50px;
+        margin: 0 auto;
+        overflow-x: hidden;
+      }
+        .content4_frame{
+          position: relative;
+          display: flex; flex-direction: row; justify-content: space-between; align-items: center;
+          width: 300%; height: 100%;
+          margin-top: 40px;
+          transition: left 1.5s ease 0s;
+        }
+    .content5{
+      width: 100%;
+      background: #fff;
+      padding: 70px 0 80px;
+    }
+      .content5_inner1{
+        width: 100%;
+        margin: 0 auto;
+      }
+      .content5_inner2{
+        width: 100%;
+        margin: 0 auto;
+      }
+  #footer{
+    position: relative;
+    width: 100%;
+    padding-bottom: 40px;
+    border-top: 1px solid #ddd;
+    background: #fff;
+    overflow: hidden;
+  }
+    .foot_inner{
+      width: 100%;
+      margin: 0 auto;
+    }
+      .foot_inner_1{
+        width: 100%;
+        border-bottom: 1px solid #ddd;
+      }
+      .foot_inner_2{
+        width: 100%;
+        margin: 20px auto 0;
+        padding-left: 24px;
+      }
+      .foot_inner_3{
+        width: 100%;
+        margin-top: 22px;
+        padding: 0 24px;
+      }
+      .foot_inner_4{
+        clear: both;
+        width: 100%; max-width: 1440px;
+        padding: 26px 0 0 24px;
+      }
+}

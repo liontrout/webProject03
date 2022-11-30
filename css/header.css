@@ -1,0 +1,113 @@
+@media screen and (max-width: 1023px){
+  /* 로고 */
+  h1{
+    margin-top: 3px;
+  }
+  h1>a{
+    display: inline-block;
+    background: url(../images/sprite@2x.png) no-repeat 0 -834px;
+    background-size: 1238px 1198px;
+    width: 223px; height: 20px;
+    text-indent: -9999px; overflow: hidden;
+  }
+
+  /* info */
+  .info{
+    margin-right: 48px;
+  }
+  .info>span{
+    margin-left: 24px;
+  }
+  .info>span>a{
+    display: inline-block;
+    background: url(../images/sprite@2x.png) no-repeat;
+    background-size: 1238px 1198px;
+    width: 24px; height: 24px;
+    text-indent: -9999px; overflow: hidden;
+  }
+  .info>.mypage>a{
+    background-position: -1090px -930px;
+  }
+  .info>.cart>a{
+    position: relative; left: 0; top: -6px;;
+    background-position: -1090px -556px;
+    overflow: visible;
+  }
+  .info>.cart>a::after{
+    content: "0";
+    position: absolute; right: -9px; top: -9px;
+    min-width: 19px;
+    height: 19px;
+    padding-left: 4px;
+    padding-right: 4px;
+    line-height: 18px;
+    font-size: 11px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 19px;
+    text-align: center;
+    box-sizing: border-box;
+    text-indent: 0;
+  }
+  .info>.srch_button>a{
+    width: 26px; height: 26px;
+    background-position: -1090px -860px;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  /* 로고 */
+  h1{
+    margin-top: 3px;
+  }
+  h1>a{
+    display: inline-block;
+    background: url(../images/sprite@2x.png) no-repeat 0 -834px;
+    background-size: 1238px 1198px;
+    width: 223px; height: 20px;
+    text-indent: -9999px; overflow: hidden;
+  }
+
+  /* info */
+  .info{
+    margin-right: 48px;
+  }
+  .info>span{
+    margin-left: 24px;
+  }
+  .info>span>a{
+    display: inline-block;
+    background: url(../images/sprite@2x.png) no-repeat;
+    background-size: 1238px 1198px;
+    width: 24px; height: 24px;
+    text-indent: -9999px; overflow: hidden;
+  }
+  .info>.mypage>a{
+    background-position: -1090px -930px;
+  }
+  .info>.cart>a{
+    position: relative; left: 0; top: -6px;;
+    background-position: -1090px -556px;
+    overflow: visible;
+  }
+  .info>.cart>a::after{
+    content: "0";
+    position: absolute; right: -9px; top: -9px;
+    min-width: 19px;
+    height: 19px;
+    padding-left: 4px;
+    padding-right: 4px;
+    line-height: 18px;
+    font-size: 11px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 19px;
+    text-align: center;
+    box-sizing: border-box;
+    text-indent: 0;
+  }
+  .info>.srch_button>a{
+    width: 26px; height: 26px;
+    background-position: -1090px -860px;
+  }
+}

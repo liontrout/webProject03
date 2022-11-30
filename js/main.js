@@ -3,13 +3,13 @@ window.addEventListener("load", () => {
   /* 큰 배너 */
   const btnNext = document.querySelector(".banner_arrow>a.next");
   const btnPrev = document.querySelector(".banner_arrow>a.prev");
-  const slide = document.querySelectorAll("section.slide");
+  const slide = document.querySelectorAll("div.slide");
   const slideRoll = document.querySelectorAll("div.banner_rolling>ul>li");
   const btnStop = document.querySelector("div.banner_rolling>p>a:first-of-type");
   const btnPlay = document.querySelector("div.banner_rolling>p>a:last-of-type");
 
   let bnnNum = 0;
-  let lastNum = document.querySelectorAll(".banner_frame>section").length-1;
+  let lastNum = slide.length-1;
 
   // next 버튼
   btnNext.addEventListener("click", e => {
@@ -88,13 +88,13 @@ window.addEventListener("load", () => {
   /* 작은 배너 */
   const btnNext2 = document.querySelector(".banner_arrow_white>a.next");
   const btnPrev2 = document.querySelector(".banner_arrow_white>a.prev");
-  const slide2 = document.querySelectorAll("section.slides");
+  const slide2 = document.querySelectorAll("div.slides");
   const slideRoll2 = document.querySelectorAll("div.banner_rolling_white>ul>li");
   const btnStop2 = document.querySelector("div.banner_rolling_white>p>a:first-of-type");
   const btnPlay2 = document.querySelector("div.banner_rolling_white>p>a:last-of-type");
 
   let bnnNum2 = 0;
-  let lastNum2 = document.querySelectorAll(".content4_frame>section").length-1;
+  let lastNum2 = slide2.length-1;
 
   // next 버튼
   btnNext2.addEventListener("click", e => {

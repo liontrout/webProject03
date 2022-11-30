@@ -199,48 +199,48 @@ a{
 
 
   /* 배너 section */
-  div.banner_frame>section.slide{
+  div.banner_frame>div.slide{
     position: relative;
     flex: 1;
     width: 100%; height: inherit;
     display: none;
   }
-  div.banner_frame>section.slide.active{
+  div.banner_frame>div.slide.active{
     z-index: 3;
     display: inline-block;
   }
   
-  div.banner_frame>section.slide:nth-of-type(1){
+  div.banner_frame>div.slide:nth-of-type(1){
     background: url(../images/0d58e42f-2d25-4c09-afd2-dba69fdb16c4.jpg) no-repeat -27% 0;
   }
-  div.banner_frame>section.slide:nth-of-type(2){
+  div.banner_frame>div.slide:nth-of-type(2){
     background: url(../images/19d2f012-5a2e-4a5d-a3b8-481928912f9c.jpg) no-repeat -25% 0;
   }
-  div.banner_frame>section.slide:nth-of-type(3){
+  div.banner_frame>div.slide:nth-of-type(3){
     background: url(../images/13ea0ffd-a661-4610-9622-e879ecb02daf.jpg) no-repeat -27% 0;
   }
-  div.banner_frame>section.slide:nth-of-type(4){
+  div.banner_frame>div.slide:nth-of-type(4){
     background: url(../images/8a0f5924-1145-407c-ad53-c9121a4db9a9.jpg) no-repeat -30% 0;
   }
-  div.banner_frame>section.slide:nth-of-type(5){
+  div.banner_frame>div.slide:nth-of-type(5){
     background: url(../images/7ac9dd9b-1208-4d79-8865-b71048322cc7.jpg) no-repeat -30% 0;
   }
 
-  div.banner_frame>section.slide>div{
+  div.banner_frame>div.slide>div{
     position: absolute; left: 0; top: 8vw;
     width: 100%;
     margin: 0 auto;
     padding: 0 5.55vw;
   }
 
-  div.banner_frame>section.slide>div>span{
+  div.banner_frame>div.slide>div>span{
     font-size: 2.78vw; font-family: "SamsungOneKorean-700"; font-weight: 700;
     line-height: 3.33vw;
   }
-  div.banner_frame>section.slide>div>p{
+  div.banner_frame>div.slide>div>p{
     margin: 1.66vw 0 3.19vw;
   }
-  div.banner_frame>section.slide>div>a{
+  div.banner_frame>div.slide>div>a{
     display: inline-block;
     min-width: 96px; height: 40px;
     font-family: "SamsungOneKorean-700";
@@ -483,7 +483,7 @@ a{
   /* content3 */
   /* content3_inner1 */
   .content3>.content3_inner1>div>ul{
-    display: flex; flex-direction: column; justify-content: baseline; flex-wrap: wrap;
+    display: flex; flex-direction: column; justify-content: flex-start; flex-wrap: wrap;
     margin-top: 30px;
   }
   .content3>.content3_inner1>div>ul>li{
@@ -609,51 +609,51 @@ a{
   .content4>.content4_inner>p{
     font-family: "SamsungOneKorean-700";
   }
-  .content4>.content4_inner>.content4_frame>section.slides{
+  .content4>.content4_inner>.content4_frame>div.slides{
     display: none;
     z-index: 1;
     position: relative;
   }
-  .content4>.content4_inner>.content4_frame>section.slides.active{
+  .content4>.content4_inner>.content4_frame>div.slides.active{
     z-index: 3;
     display: block;
   }
-  .content4>.content4_inner>.content4_frame>section.slides>div{
+  .content4>.content4_inner>.content4_frame>div.slides>div{
     width: 100%;
     margin-right: 10px;
     padding: 40px 50px;
     text-align: left;
   }
-  .content4>.content4_inner>.content4_frame>section.slides>div>a{
+  .content4>.content4_inner>.content4_frame>div.slides>div>a{
     position: relative;
     height: 250px;
     background-size: cover;
   }
-  .content4>.content4_inner>.content4_frame>section.slides>div>a>div.bg{
+  .content4>.content4_inner>.content4_frame>div.slides>div>a>div.bg{
     width: 85vw;
     height: 250px;
     overflow: hidden;
     border-radius: 20px;
   }
-  .content4>.content4_inner>.content4_frame>section.slides>div>a>div.bg>img{
+  .content4>.content4_inner>.content4_frame>div.slides>div>a>div.bg>img{
     width: 100%; height: 100%;
   }
 
-  .content4>.content4_inner>.content4_frame>section.slides>div>a>div.txt{
+  .content4>.content4_inner>.content4_frame>div.slides>div>a>div.txt{
     position: absolute; left: 50px; top: 55px;
     color: #fff;
   }
-  .content4>.content4_inner>.content4_frame>section.slides>div>a>div.txt>span{
+  .content4>.content4_inner>.content4_frame>div.slides>div>a>div.txt>span{
     font-size: 24px; font-family: "SamsungOneKorean-700"; font-weight: 700;
     line-height: 30px;
   }
-  .content4>.content4_inner>.content4_frame>section.slides>div>a>div.txt>p{
+  .content4>.content4_inner>.content4_frame>div.slides>div>a>div.txt>p{
     margin-top: 27px;
   }
 
-  .content4>.content4_inner>.content4_frame>section.slides>div>a>div.item{
+  .content4>.content4_inner>.content4_frame>div.slides>div>a>div.item{
     position: absolute; right: 20px; top: 0px;
-    transform: scale(50%);
+    transform: scale(0.5);
   }
 
 
@@ -1046,48 +1046,48 @@ a{
 
 
   /* 배너 section */
-  div.banner_frame>section.slide{
+  div.banner_frame>div.slide{
     display: none;
     position: relative;
     flex: 1;
     width: 100%; height: inherit;
   }
-  div.banner_frame>section.slide.active{
+  div.banner_frame>div.slide.active{
     z-index: 3;
     display: block;
   }
   
-  div.banner_frame>section.slide:nth-of-type(1){
+  div.banner_frame>div.slide:nth-of-type(1){
     background: url(../images/0d58e42f-2d25-4c09-afd2-dba69fdb16c4.jpg) no-repeat 0 0;
   }
-  div.banner_frame>section.slide:nth-of-type(2){
+  div.banner_frame>div.slide:nth-of-type(2){
     background: url(../images/19d2f012-5a2e-4a5d-a3b8-481928912f9c.jpg) no-repeat 0 0;
   }
-  div.banner_frame>section.slide:nth-of-type(3){
+  div.banner_frame>div.slide:nth-of-type(3){
     background: url(../images/13ea0ffd-a661-4610-9622-e879ecb02daf.jpg) no-repeat 0 0;
   }
-  div.banner_frame>section.slide:nth-of-type(4){
+  div.banner_frame>div.slide:nth-of-type(4){
     background: url(../images/8a0f5924-1145-407c-ad53-c9121a4db9a9.jpg) no-repeat 0 0;
   }
-  div.banner_frame>section.slide:nth-of-type(5){
+  div.banner_frame>div.slide:nth-of-type(5){
     background: url(../images/7ac9dd9b-1208-4d79-8865-b71048322cc7.jpg) no-repeat 0 0;
   }
 
-  div.banner_frame>section.slide>div{
+  div.banner_frame>div.slide>div{
     position: absolute; left: 0; top: 8vw;
     width: 100%;
     margin: 0 auto;
     padding: 0 5.55vw;
   }
 
-  div.banner_frame>section.slide>div>span{
+  div.banner_frame>div.slide>div>span{
     font-size: 2.78vw; font-family: "SamsungOneKorean-700"; font-weight: 700;
     line-height: 3.33vw;
   }
-  div.banner_frame>section.slide>div>p{
+  div.banner_frame>div.slide>div>p{
     margin: 1.66vw 0 3.19vw;
   }
-  div.banner_frame>section.slide>div>a{
+  div.banner_frame>div.slide>div>a{
     display: inline-block;
     min-width: 96px; height: 40px;
     font-family: "SamsungOneKorean-700";
@@ -1461,57 +1461,57 @@ a{
   .content4>.content4_inner>p{
     font-family: "SamsungOneKorean-700";
   }
-  .content4>.content4_inner>.content4_frame>section.slides{
+  .content4>.content4_inner>.content4_frame>div.slides{
     display: none;
     position: relative;
     flex: 1;
     width: 100%;
   }
-  .content4>.content4_inner>.content4_frame>section.slides.active{
+  .content4>.content4_inner>.content4_frame>div.slides.active{
     z-index: 3;
     display: block;
   }
 
-  .content4>.content4_inner>.content4_frame>section.slides>div{
+  .content4>.content4_inner>.content4_frame>div.slides>div{
     width: 31%;
     padding: 40px 1.2%;
     text-align: left;
   }
-  .content4>.content4_inner>.content4_frame>section.slides>div>a{
+  .content4>.content4_inner>.content4_frame>div.slides>div>a{
     position: relative;
     height: 250px;
     background-size: cover;
   }
-  .content4>.content4_inner>.content4_frame>section.slides>div>a>div.bg{
+  .content4>.content4_inner>.content4_frame>div.slides>div>a>div.bg{
     width: 100%;
     height: 250px;
     overflow: hidden;
     border-radius: 20px;
 
   }
-  .content4>.content4_inner>.content4_frame>section.slides>div>a>div.bg>img{
+  .content4>.content4_inner>.content4_frame>div.slides>div>a>div.bg>img{
     width: 100%; height: 100%;
   }
 
-  .content4>.content4_inner>.content4_frame>section.slides>div>a>div.txt{
+  .content4>.content4_inner>.content4_frame>div.slides>div>a>div.txt{
     position: absolute; left: 50px; top: 55px;
   }
-  .content4>.content4_inner>.content4_frame>section.slides>div>a>div.txt>span{
+  .content4>.content4_inner>.content4_frame>div.slides>div>a>div.txt>span{
     font-size: 24px; font-family: "SamsungOneKorean-700"; font-weight: 700;
     line-height: 30px;
   }
-  .content4>.content4_inner>.content4_frame>section.slides>div>a>div.txt>p{
+  .content4>.content4_inner>.content4_frame>div.slides>div>a>div.txt>p{
     margin-top: 27px;
   }
 
-  .content4>.content4_inner>.content4_frame>section.slides>div>a>div.item{
+  .content4>.content4_inner>.content4_frame>div.slides>div>a>div.item{
     position: absolute; right: 80px; top: -10px;
     width: 380px; height: 380px;
     transform: scale(0.9);
     transition: all 0.3s ease-out 0s;
 
   }
-  .content4>.content4_inner>.content4_frame>section.slides>div>a:hover>div.item{
+  .content4>.content4_inner>.content4_frame>div.slides>div>a:hover>div.item{
     right: 100px; top: -20px;
     transform: scale(1);
   }

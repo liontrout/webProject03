@@ -200,10 +200,10 @@ a{
 
   /* 배너 section */
   div.banner_frame>div.slide{
+    display: none;
     position: relative;
     flex: 1;
     width: 100%; height: inherit;
-    display: none;
   }
   div.banner_frame>div.slide.active{
     z-index: 3;
@@ -211,34 +211,40 @@ a{
   }
   
   div.banner_frame>div.slide:nth-of-type(1){
-    background: url(../images/0d58e42f-2d25-4c09-afd2-dba69fdb16c4.jpg) no-repeat -27% 0;
+    background: url(../images/84518d6e-f74a-4875-8e2c-5b657d52fbec.jpg) no-repeat 0 0;
+    background-size: 24%;
   }
   div.banner_frame>div.slide:nth-of-type(2){
-    background: url(../images/19d2f012-5a2e-4a5d-a3b8-481928912f9c.jpg) no-repeat -25% 0;
+    background: url(../images/a0104432-2a96-423f-a11e-2efd10de8c37.jpg) no-repeat 0 0;
+    background-size: 24%;
   }
   div.banner_frame>div.slide:nth-of-type(3){
-    background: url(../images/13ea0ffd-a661-4610-9622-e879ecb02daf.jpg) no-repeat -27% 0;
+    background: url(../images/dcb31ab3-c207-413f-be3e-a96c8f6eb2ae.jpg) no-repeat 0 0;
+    background-size: 24%;
   }
   div.banner_frame>div.slide:nth-of-type(4){
-    background: url(../images/8a0f5924-1145-407c-ad53-c9121a4db9a9.jpg) no-repeat -30% 0;
+    background: url(../images/65ee3305-d51a-4d73-a27d-a8147e6cc230.jpg) no-repeat 0 0;
+    background-size: 24%;
   }
   div.banner_frame>div.slide:nth-of-type(5){
-    background: url(../images/7ac9dd9b-1208-4d79-8865-b71048322cc7.jpg) no-repeat -30% 0;
+    background: url(../images/5bdd509f-dc62-4175-b19c-186197e00096.jpg) no-repeat 0 0;
+    background-size: 24%;
   }
 
   div.banner_frame>div.slide>div{
-    position: absolute; left: 0; top: 8vw;
-    width: 100%;
+    position: absolute; left: 10%; top: 15vw; transform: translateX(-50%);
+    width: 85vw;
     margin: 0 auto;
     padding: 0 5.55vw;
+    text-align: center;
   }
 
   div.banner_frame>div.slide>div>span{
-    font-size: 2.78vw; font-family: "SamsungOneKorean-700"; font-weight: 700;
-    line-height: 3.33vw;
+    font-size: 6.5vw; font-family: "SamsungOneKorean-700"; font-weight: 700;
   }
   div.banner_frame>div.slide>div>p{
-    margin: 1.66vw 0 3.19vw;
+    font-size: 4vw;
+    margin: 1.66vw 0 10vw;
   }
   div.banner_frame>div.slide>div>a{
     display: inline-block;
@@ -251,6 +257,15 @@ a{
     padding: 8px 20px;
     text-align: center;
     box-sizing: border-box;
+  }
+
+  div.banner_frame>div.slide>div.white{
+    color: #fff;
+  }
+  div.banner_frame>div.slide>div.white>a{
+    color: #000;
+    background: #fff;
+    border-width: 0.5px;
   }
 
   /* 배너 화살표 */
@@ -1058,13 +1073,13 @@ a{
   }
   
   div.banner_frame>div.slide:nth-of-type(1){
-    background: url(../images/0d58e42f-2d25-4c09-afd2-dba69fdb16c4.jpg) no-repeat 0 0;
+    background: url(../images/a514c2ac-f910-4870-aa79-09aaa4f8562f.jpg) no-repeat 0 0;
   }
   div.banner_frame>div.slide:nth-of-type(2){
-    background: url(../images/19d2f012-5a2e-4a5d-a3b8-481928912f9c.jpg) no-repeat 0 0;
+    background: url(../images/87f7545b-d886-47d4-b99e-f40dd0853459.jpg) no-repeat 0 0;
   }
   div.banner_frame>div.slide:nth-of-type(3){
-    background: url(../images/13ea0ffd-a661-4610-9622-e879ecb02daf.jpg) no-repeat 0 0;
+    background: url(../images/7686328f-92c3-4ba1-b97e-054d7812d230.jpg) no-repeat 0 0;
   }
   div.banner_frame>div.slide:nth-of-type(4){
     background: url(../images/8a0f5924-1145-407c-ad53-c9121a4db9a9.jpg) no-repeat 0 0;
@@ -1087,6 +1102,9 @@ a{
   div.banner_frame>div.slide>div>p{
     margin: 1.66vw 0 3.19vw;
   }
+  div.banner_frame>div.slide>div>p>span{
+    font-family: "SamsungOneKorean-700"; font-weight: 700;
+  }
   div.banner_frame>div.slide>div>a{
     display: inline-block;
     min-width: 96px; height: 40px;
@@ -1098,6 +1116,15 @@ a{
     padding: 8px 20px;
     text-align: center;
     box-sizing: border-box;
+  }
+
+  div.banner_frame>div.slide>div.white{
+    color: #fff;
+  }
+  div.banner_frame>div.slide>div.white>a{
+    color: #000;
+    background: #fff;
+    border-width: 0.5px;
   }
 
   /* 배너 화살표 */
@@ -1507,13 +1534,13 @@ a{
   .content4>.content4_inner>.content4_frame>div.slides>div>a>div.item{
     position: absolute; right: 80px; top: -10px;
     width: 380px; height: 380px;
-    transform: scale(0.9);
+    transform: scale(0.8);
     transition: all 0.3s ease-out 0s;
 
   }
   .content4>.content4_inner>.content4_frame>div.slides>div>a:hover>div.item{
     right: 100px; top: -20px;
-    transform: scale(1);
+    transform: scale(0.9);
   }
 
   /* 배너 화살표 */

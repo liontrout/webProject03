@@ -502,30 +502,33 @@ a{
     margin-top: 30px;
   }
   .content3>.content3_inner1>div>ul>li{
-    width: 100%; height: 42vh;
+    width: 100%; height: 550px;
     margin-bottom: 50px;
   }
   .content3>.content3_inner1>div>ul>li+li{
-    padding-top: 30%;
+    padding-top: 10%;
   }
   .content3>.content3_inner1>div>ul>li>a{
     position: relative;
     display: inline-block;
-    width: 50%; height: 70vh;
+    width: 100%; height: 100%;
     border-radius: 20px;
   }
   .content3>.content3_inner1>div>ul>li:first-child>a{
     background: url(../images/8da756b5-4bba-4c8f-81ac-a50801bc01b4.png) no-repeat 50% 50%;
+    background-size: cover;
   }
   .content3>.content3_inner1>div>ul>li:nth-child(2)>a{
     background: url(../images/829c9f45-ddfb-4743-a6b0-fd35bcb4bb7d.png) no-repeat 50% 50%;
+    background-size: cover;
   }
   .content3>.content3_inner1>div>ul>li:last-child>a{
     background: url(../images/efc7c90a-e519-476f-a0c2-4c0d97fac00a.png) no-repeat 50% 50%;
+    background-size: cover;
   }
 
   .content3>.content3_inner1>div>ul>li>a>div{
-    position: absolute; left: 0; right: 0; top: 230px;
+    position: absolute; left: 10px; bottom: -100px;
     width: 448px;
     padding-top: 24px;
     margin: 0 auto 24px;
@@ -1399,11 +1402,12 @@ a{
     margin-top: 60px;
   }
   .content3>.content3_inner2>div>ul>li{
+    position: relative;
     flex: 1 0 33.3%;
     width: 100%; height: 250px;
   }
   .content3>.content3_inner2>div>ul>li>a{
-    position: relative;
+    position: absolute; right: 13%;
     display: inline-block;
     width: 95px; height: 90px;
     background: url(../images/sprite@2x.png) no-repeat;
@@ -1430,8 +1434,8 @@ a{
   }
 
   .content3>.content3_inner2>div>ul>li>a>div{
-    position: absolute; left: -10vw; top: -30px;
-    width: 25vw; height: 25vh;
+    position: absolute; left: -21vw; top: -30px;
+    width: 25vw; height: 15vh;
     padding-left: 2vw;
     text-align: left;
     border-left: 1px solid #ddd;
@@ -1457,7 +1461,7 @@ a{
   .content3>.content3_inner2>div>ul>li:nth-of-type(6)>a>div::before{
     content: "";
     position: absolute; top: -33px; left: 20px; right: 20px;
-    width: 93%; height: 1px;
+    width: 109%; height: 1px;
     background-color: #ddd;
   }
 
